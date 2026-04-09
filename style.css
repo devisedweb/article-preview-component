@@ -12,7 +12,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+  min-height: 100svh;
 }
 
 article {
@@ -99,6 +99,7 @@ h1,
 footer {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .profile-date {
@@ -112,6 +113,50 @@ footer {
   height: 32px;
   border: none;
   border-radius: 50%;
+}
+
+/* MEDIA QUERIES */
+
+/* TABLET */
+
+@media only screen and (min-width: 768px) {
+  /* TYPOGRAPHY */
+
+  h1 {
+    font-size: 1.3rem;
+    line-height: 130%;
+    margin-bottom: 1.5rem;
+  }
+
+  .desc {
+    font-size: 0.813rem;
+    line-height: 140%;
+  }
+
+  /* IMAGES */
+
+  .drawers {
+    max-width: 229px;
+    height: 100%;
+    object-position: 5%;
+    border-top-left-radius: 0.625em;
+    border-top-right-radius: unset;
+    border-bottom-left-radius: 0.625em;
+  }
+
+  /* LAYOUT */
+
+  article {
+    max-width: 38rem;
+    flex-direction: row;
+  }
+
+  .content {
+    width: 100%;
+    max-width: 19.438rem;
+    padding: 2.563rem 0;
+    gap: 1.5rem;
+  }
 }
 
 /* .attribution {
