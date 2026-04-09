@@ -159,6 +159,28 @@ footer {
   }
 }
 
+/* DESKTOP */
+
+@media only screen and (min-width: 1440px) {
+  /* IMAGES */
+
+  .drawers {
+    max-width: 285px;
+  }
+
+  /* LAYOUT */
+
+  article {
+    max-width: 45.625rem;
+    gap: 2.5rem;
+  }
+
+  .content {
+    max-width: 22.813rem;
+    padding: 1.875rem 0;
+  }
+}
+
 /* .attribution {
   font-size: 0.6875rem;
   text-align: center;
