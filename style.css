@@ -208,6 +208,33 @@ footer {
     padding: 2.563rem 0;
     gap: 1.5rem;
   }
+
+  .share-tab-desk {
+    display: none;
+    width: 15.5rem;
+    height: 3.438rem;
+    position: absolute;
+    left: 55%;
+    bottom: 65px;
+    border-radius: 0.625rem;
+    background-color: #48556a;
+  }
+
+  .share-tab-desk::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%) rotate(45deg);
+    margin-top: -15px;
+    width: 24px;
+    height: 24px;
+    background: #48556a;
+  }
+
+  .share-wrapper {
+    justify-content: center;
+  }
 }
 
 /* DESKTOP */
