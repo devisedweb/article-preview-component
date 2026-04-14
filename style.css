@@ -156,7 +156,7 @@ footer {
   gap: 1rem;
 }
 
-.share-options button {
+.share-options a {
   border: none;
   background-color: unset;
   padding: 0;
