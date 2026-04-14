@@ -97,6 +97,7 @@ h1,
 }
 
 footer {
+  position: relative;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -113,6 +114,55 @@ footer {
   height: 32px;
   border: none;
   border-radius: 50%;
+}
+
+.share-toast-mobile {
+  width: 20.438rem;
+  height: 4.75rem;
+  position: absolute;
+  left: -30px;
+  padding: 1rem 2rem;
+  border-bottom-left-radius: 0.625em;
+  border-bottom-right-radius: 0.625em;
+  background-color: #48556a;
+}
+
+.share-wrapper {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.share {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.share p {
+  font-size: 0.813rem;
+  font-weight: 500;
+  line-height: 140%;
+  letter-spacing: 25%;
+  text-transform: uppercase;
+  color: #9daec2;
+}
+
+.share-options {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.share-options button {
+  border: none;
+  background-color: unset;
+  padding: 0;
+}
+
+.dark-share-btn {
+  background: #6e8098;
 }
 
 /* MEDIA QUERIES */
