@@ -166,6 +166,10 @@ footer {
   background: #6e8098;
 }
 
+.share-tab-desk {
+  display: none;
+}
+
 /* MEDIA QUERIES */
 
 /* TABLET */
