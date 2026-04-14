@@ -261,6 +261,10 @@ footer {
     max-width: 22.813rem;
     padding: 1.875rem 0;
   }
+
+  .share-tab-desk {
+    left: 62%;
+  }
 }
 
 /* .attribution {
