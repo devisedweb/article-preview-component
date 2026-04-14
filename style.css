@@ -117,6 +117,7 @@ footer {
 }
 
 .share-toast-mobile {
+  display: none;
   width: 20.438rem;
   height: 4.75rem;
   position: absolute;
